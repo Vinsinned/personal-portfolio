@@ -1,1 +1,2 @@
 # personal-portfolio
+This is the final project of the HTML and CSS course provided by "The Odin Project." This is basically a web page for showcasing all of my previous projects that I have done with this (very good) course and showcases only my HTML and CSS knowledge for now.

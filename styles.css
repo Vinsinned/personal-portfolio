@@ -58,8 +58,9 @@ body {
     background-color: #d9d2cc;
     width: 65%;
     margin: auto;
-    margin-top: 10rem;
+    margin-top: 6rem;
     padding: 1rem;
+    box-shadow: 3px 3px 10px #000;
 }
 .introductionFlex {
     display: flex;
@@ -71,12 +72,17 @@ body {
     left: -4rem;
     top: -5rem;
     float: left;
+    box-shadow: 1px 1px 15px #000;
 }
 .introduction {
     font-family: 'Noto Serif Display', serif;
     text-align: center;
     font-size: 3rem;
-    margin-top: -3rem;
+    margin-bottom: 5rem;
+}
+.headerTexts {
+    display: flex;
+    flex-direction: column;
 }
 .aboutMe {
     margin-top: -3em;
@@ -85,4 +91,55 @@ body {
     font-size: 1.25rem;
     letter-spacing: 0.01rem;
     line-height: 1.25;
+}
+
+/* projects */
+.projects {
+    width: 85%;
+    margin: auto;
+    margin-top: 5rem;
+}
+.projectsHeader {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.allProjects {
+    display: grid;
+}
+.project {
+    border-radius: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+.projectImage {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.projectContent {
+    padding: 1rem 1.5rem 3rem 1.5rem;
+    background-color: #d9d2cc;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.projectTop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.projectTitle {
+    font-size: 2rem;
+}
+.projectIcons {
+    display: flex;
+    align-items: center;
+}
+.projectTop i {
+    font-size: 2rem;
+    margin-right: 0.75rem;
+}
+.projectDescription {
+    font-size: 1.25rem;
 }
